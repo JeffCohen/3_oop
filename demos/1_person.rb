@@ -34,7 +34,7 @@ class Employee < Person
 
   attr_accessor :salary
 
-  def self.titles
+  def Employee.titles
     return ["Worker", "Manager", "Clown"]
   end
 
